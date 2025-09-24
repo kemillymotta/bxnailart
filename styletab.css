@@ -111,12 +111,6 @@ body * {
     
 
   }
-  .stars1{
-  position: absolute;
-  top: 4%;
-  right: 70%;
-  width: 120px;
-}
 
 }
 
@@ -181,16 +175,10 @@ body * {
 
 /* preços lado direito */
 .preco {
-  font-family: "chewy", cursive;
+  font-family: "Chewy", cursive;
   text-align: right;
   font-size: 16px;
   line-height: 1.4;
   color: #ffff;
 }
 
-.stars1{
-  position: absolute;
-  top: 4%;
-  right: 62%;
-  width: 180px;
-}
