@@ -108,18 +108,17 @@ body{
 
   }
 
-.setinha {
-  position: fixed;
-  top: 8%;
-  left: 8%;
-  border: 1px solid none;
+.setinha img {
+  position: absolute;
+  width: 40px;
+  border: 0;
   border-radius: 50%;
-  padding: 0.8rem;
-  font-size: 20px;
-  color: #fff;
-  background-color: #e1e1e14b;
-}
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #9b5a8826;
+  bottom: 85%;
+  left: 8%;
 
 }
 
-
+}
