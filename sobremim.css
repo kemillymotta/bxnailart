@@ -108,17 +108,4 @@ body{
 
   }
 
-.setinha img {
-  position: absolute;
-  width: 40px;
-  border: 0;
-  border-radius: 50%;
-  margin: 0 auto;
-  padding: 10px;
-  background-color: #9b5a8826;
-  bottom: 85%;
-  left: 8%;
-
-}
-
 }
