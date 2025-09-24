@@ -64,7 +64,7 @@ body{
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
 .bea-img{
   width: 190px;
@@ -103,7 +103,7 @@ body{
     background-color: #9b5a885a;
     box-shadow: 6px 6px 30px 3px #00000064;
     font-size: 1rem;
-    max-width: 250px;
+    max-width: 280px;
     margin: 0.2rem auto;
 
   }
