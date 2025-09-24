@@ -1,0 +1,118 @@
+/* #ff98df */
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ff98df;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+
+}
+
+.bea-img{
+  width: 220px;
+  border-radius:50%;
+  border: 3.2px solid #eae5e5;
+}
+
+.about{
+    margin-top:4rem;
+    padding: 2rem;
+     border-radius: 2rem;
+     background-color: #9b5a885a;
+     box-shadow: 6px 6px 30px 3px #00000064;;
+
+  }
+  
+.about p {
+  font-family: "Chewy", cursive;
+  color: #ffff;
+}
+
+.titulo {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+    padding: 1.2rem;
+    border-radius: 2rem;
+    background-color: #9b5a882c;
+    box-shadow: 10px 10px 30px 3px #00000032;
+
+}
+
+.stars1{
+  position: absolute;
+  top: 3%;
+  right: 75%;
+  width: 190px;
+}
+
+@media (max-width: 700px) {
+
+.bea-img{
+  width: 190px;
+  border-radius:50%;
+
+}
+
+.bea {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 3.5rem;
+}
+
+.titulo {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  background-color: #ff98df;
+  box-shadow: none;
+
+
+}
+
+.about{
+    padding: 1.2rem;
+    border-radius: 2rem;
+    background-color: #9b5a885a;
+    box-shadow: 6px 6px 30px 3px #00000064;
+    font-size: 1rem;
+    max-width: 450px;
+    margin: 0.2rem auto;
+
+  }
+
+}

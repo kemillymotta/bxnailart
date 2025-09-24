@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: white;
+  --bg-url: url(tabela/bg-mobile.png);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.5);
+  --surface-color-hover: rgba(255, 255, 255, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.1);
+  --switch-bg-url: url(./assets/moon-stars.svg);
+}
+
+.light {
+  --text-color: black;
+  --bg-url: url(tabela/bg-light.png);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
+    height: 100vh;
+}
+
+body {
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 85vh;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+
+/* profile */
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+/* switch */
+
+#switch {
+  position: relative;
+  width: 64px;
+
+  margin: 4px auto;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+
+  animation: slide-back 0.2s;
+}
+.light #switch button {
+  animation: slide-in 0.4s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 9999px;
+}
+
+/* media queries */
+@media (max-width: 700px) {
+  :root {
+    --bg-url: url(tabela/bg.png);
+  }
+  .light {
+    --bg-url: url(tabela/bg-light.png);
+  }
+    body {
+    height:100vh;
+    position: relative;
+    
+
+  }
+  .stars1{
+  position: absolute;
+  top: 4%;
+  right: 62%;
+  width: 180px;
+}
+
+}
+
+/* animation */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* container da tabela */
+.container {
+  max-width: 600px;
+  margin: 5px auto;
+  padding: 20px;
+}
+
+/* titulo da tabela */
+.titulo {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+}
+
+/* todos itens da tabela*/
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 0;
+  font-size: 18px;
+}
+
+/* serviços lado esquerdo */
+.servico {
+  font-family: "Chewy", cursive;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 25px;
+    
+}
+
+/* preços lado direito */
+.preco {
+  font-family: "chewy", cursive;
+  text-align: right;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #ffff;
+}
+
+.stars1{
+  position: absolute;
+  top: 4%;
+  right: 62%;
+  width: 180px;
+}
