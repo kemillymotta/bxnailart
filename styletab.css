@@ -12,6 +12,8 @@
   --surface-color-hover: rgba(255, 255, 255, 0.2);
   --highlight-color: rgba(255, 255, 255, 0.1);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --setinha-bg: #ff98de53;
+  --setinha-bg-hover: #ff98dea2;
 }
 
 .light {
@@ -23,7 +25,10 @@
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
     height: 100vh;
+  --setinha-bg: #9b5a8826;
+  --setinha-bg-hover: #9b5a887c;;
 }
+
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -104,13 +109,13 @@ body * {
   border-radius: 50%;
   margin: 0 auto;
   padding: 10px;
-  background-color: #9b5a8826;
+  background-color: var(--setinha-bg);
   bottom: 85%;
   left: 18%;
 }
 
 .setinha img:hover {
-  background-color: #9b5a887c;
+ background-color: var(--setinha-bg-hover);
 }
 
 /* media queries */
@@ -135,7 +140,8 @@ body * {
   border-radius: 50%;
   margin: 0 auto;
   padding: 10px;
-  background-color: #9b5a8826;
+  background-color: var(--setinha-bg);
+  background-color: var(--setinha-bg-hover);
   bottom: 85%;
   left: 8%;
 
