@@ -17,10 +17,10 @@
 
 ## 🚀 Tecnologias
 
-HTML e CSS → estrutura e estilização
-JavaScript → interatividade e personalizações
-Git e GitHub → versionamento e hospedagem
-Figma → prototipação do layout
+- HTML e CSS → estrutura e estilização
+- JavaScript → interatividade e personalizações
+- Git e GitHub → versionamento e hospedagem
+- Figma → prototipação do layout
 
 ## 💻 Projeto
 
