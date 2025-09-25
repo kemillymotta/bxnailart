@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="projeto bxnailart" src=".gitbub/preview.jpg">
+  <img alt="Preview do projeto" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
