@@ -11,6 +11,10 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
+<p align="center">
+  <img alt="projeto bxnailart" src=".gitbub/preview.jpg">
+</p>
+
 ## 🚀 Tecnologias
 
 HTML e CSS → estrutura e estilização
