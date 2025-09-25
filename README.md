@@ -4,6 +4,13 @@
   O bxnailart é um projeto inspirado no DevLinks da Rocketseat, mas desenvolvido com foco em personalização e expansão de funcionalidades. Ele funciona como um agregador de links, servindo como um cartão de visitas digital, mas com um design diferenciado e alguns recursos extras para melhor experiência visual.
 </p>
 
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
 ## 🚀 Tecnologias
 
 HTML e CSS → estrutura e estilização
