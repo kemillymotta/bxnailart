@@ -118,7 +118,7 @@ body{
   padding: 10px;
   background-color: var(--setinha-bg);
   bottom: 85%;
-  left: 5%;
+  left: 10%;
 
 }
 
@@ -133,7 +133,7 @@ body{
   padding: 10px;
   background-color: #9b5a8826;
   bottom: 85%;
-  left: 16%;
+  left: 8%;
 }
 
 .setinha img:hover {
