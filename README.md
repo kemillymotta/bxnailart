@@ -11,12 +11,16 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
+<p align="center">
+  <img alt="Preview do projeto" src=".github/preview.jpg" width="100%">
+</p>
+
 ## 🚀 Tecnologias
 
-HTML e CSS → estrutura e estilização
-JavaScript → interatividade e personalizações
-Git e GitHub → versionamento e hospedagem
-Figma → prototipação do layout
+- HTML e CSS → estrutura e estilização
+- JavaScript → interatividade e personalizações
+- Git e GitHub → versionamento e hospedagem
+- Figma → prototipação do layout
 
 ## 💻 Projeto
 
